@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamGps.LogeoCliente">
+    <ContentPage.Content>
+        <ScrollView>
+        <Grid>
+
+
+
+            <Image Source="fondo3.jpg" Aspect="AspectFill"></Image>
+
+            <StackLayout Orientation="Vertical" VerticalOptions="Center"   >
+                
+                <Image Source="storedaway.png"/>
+                <Entry x:Name="Cedula"  Placeholder="Cedula" PlaceholderColor="Black" Keyboard="Numeric"/>
+                <Entry x:Name="Contrasena" Placeholder="Contraseña" PlaceholderColor="Black" IsPassword="True"/>
+                    <Button x:Name="btnIngresar" Text="Ingresar" BackgroundColor="LightSkyBlue" CornerRadius="50"/>
+              
+
+            </StackLayout>
+          
+        </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

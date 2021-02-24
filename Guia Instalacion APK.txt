@@ -1,0 +1,10 @@
+Esta aplicación móvil sirve para:
+Cadetes: Ver la direccion indicada por el cliente en la web para enviar su pedido.
+Cliente: Ver la ubicacion del cadete (que lleva su pedido) en tiempo real.
+
+1) Abrir la APK  que se encuentra en la carpeta de Almacenamiento del dispositivo
+2) Aceptar los permisos presentados 
+3)Activar fuentes desconocidas solo para esta instalacion
+4)Aparecera una advertencia diciendo que el fabricante es desconocido,elegir la opcion
+INSTALAR DE TODAS FORMAS
+5)Activar la ubicacion del dispositivo

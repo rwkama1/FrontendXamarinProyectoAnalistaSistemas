@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamGps.VerOrdenEnvio">
+    <ScrollView>
+        <Grid>
+        <Image Source="fondo3.jpg" Aspect="AspectFill"></Image>
+        <StackLayout>
+            <Image Source="storedaway.png"/>
+            <Label Text="Ver Orden de Envio" Font="Bold" FontSize="Large"/>
+
+
+            
+                <StackLayout Orientation="Vertical">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="ID de la Orden de Envio:" Font="Bold" FontSize="Medium"/>
+                        <Label Text="{Binding IdOE}" Font="Bold" FontSize="Medium"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Direccion del Envio: " FontSize="Medium"/>
+                        <Label Text="{Binding UbicacionOE}" FontSize="Medium"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Estado del Envio: " FontSize="Medium"/>
+                        <Label Text="{Binding EstadoOE}" FontSize="Medium"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                    <Label Text="Cantidad de Productos: " FontSize="Medium" />
+                        <Label Text="{Binding CantidadProductos}" FontSize="Medium"/>
+                    </StackLayout>
+                <StackLayout Orientation="Vertical">
+
+                        <Button x:Name="btnDestinoD" Text="Ver Destino " BackgroundColor="LightSkyBlue" CornerRadius="50" />
+                        <Button x:Name="btnEnvioD" Text="Enviar ubicacion al cliente" BackgroundColor="LightSkyBlue" CornerRadius="50" />
+                </StackLayout>
+                <!--<StackLayout Orientation="Horizontal">
+            <Label Text="Cantidad Boletas: "/>
+            <Entry x:Name="CantidadBoletas" Keyboard="Numeric" />
+        </StackLayout>-->
+              
+            </StackLayout>
+       
+        </StackLayout>
+
+    </Grid>
+        </ScrollView>
+</ContentPage>
